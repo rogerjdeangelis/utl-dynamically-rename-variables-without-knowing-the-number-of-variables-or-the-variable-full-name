@@ -126,7 +126,7 @@ Dynamically rename variables without knowing the number of variables or the vari
        create table havs1 as select * from t(keep=s: obs=0) union select * from hav001(keep=s:);                                        
        create table havs2 as select * from t(keep=s: obs=0) union select * from hav002(keep=s:);                                        
                                                                                                                                         
-       * z_ variables                                                                                                                   
+       * z_ variables;                                                                                                                   
        create table havz1 as select * from t(keep=z: obs=0) union select * from hav001(keep=z:);                                        
        create table havz2 as select * from t(keep=z: obs=0) union select * from hav002(keep=z:);                                        
                                                                                                                                         
