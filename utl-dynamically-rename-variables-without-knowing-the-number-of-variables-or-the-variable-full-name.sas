@@ -32,7 +32,7 @@ https://communities.sas.com/t5/SAS-Programming/Dynamically-change-the-name-of-va
 ;                                                                                                                                       
                                                                                                                                         
 * These are the final variable names;                                                                                                   
-data template;                                                                                                                          
+data t;                                                                                                                          
    retain s1 s2 s3 z1 z2 .;                                                                                                             
 run;quit;                                                                                                                               
                                                                                                                                         
