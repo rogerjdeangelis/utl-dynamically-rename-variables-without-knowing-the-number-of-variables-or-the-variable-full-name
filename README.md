@@ -101,7 +101,7 @@ Dynamically rename variables without knowing the number of variables or the vari
                                                                                                                                         
     ;                                                                                                                                   
                                                                                                                                         
-    data template;                                                                                                                      
+    data t;                                                                                                                      
        retain s1 s2 s3 z1 z2 .;                                                                                                         
     run;quit;                                                                                                                           
                                                                                                                                         
